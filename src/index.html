@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dime como te va en el amor</title>
+</head>
+<body>
+    <form>
+        <div class="titulo">
+            <h1>Dime como te va en el amor y el pastor te dará un consejo</h1>
+        </div>
+        <div class="contenedor">
+            <!-- Pregunta 1-->
+            <div class="pregunta">
+                <h2>Ahora sí, cuéntanos, ¿Cual es tu lenguaje del amor?</h2>
+            </div>
+            <div class="respuestas">
+
+                <lable for="respuesta1.1">A.Regalos</lable>
+                <input type="radio" value="2" id="respuesta1.1" name="primeraSeleccion">
+
+                <lable for="respuesta1.2">B.Tiempo de calidad </lable>
+                <input type="radio" value="4" id="respuesta1.2" name="primeraSeleccion">
+
+                <lable for="respuesta1.3">C.Contacto Fisico</lable>
+                <input type="radio" value="6" id="respuesta1.3" name="primeraSeleccion">
+
+                <lable for="respuesta1.4">D.Actos de Servicio</lable>
+                <input type="radio" value="8" id="respuesta1.4" name="primeraSeleccion">
+
+                <lable for="respuesta1.5">E.Palabras de Afirmacion</lable>
+                <input type="radio" value="10" id="respuesta1.5" name=primeraSeleccion">
+            </div>
+            <!-- Pregunta 2-->
+            <div class="pregunta">
+                <h2>¿Qué tipo de relación tienes actualmente?</h2>
+            </div>
+            <div class="respuestas">
+
+                <lable for="respuesta2.1" >A.Es complicado </lable>
+                <input type="radio" value="2" id="respuesta2.1" name="segundaSeleccion">
+
+                <lable for="respuesta2.2" >B.Soltero pero no disponible</lable>
+                <input type="radio" value="4" id="respuesta2.2" name="segundaSeleccion">
+
+                <lable for="respuesta2.3">C.Me estoy quemando</lable>
+                <input type="radio" value="6" id="respuesta2.3" name="segundaSeleccion">
+
+                <lable for="respuesta2.4">D.En una relación</lable>
+                <input type="radio" value="8" id="respuesta2.4" name="segundaSeleccion">
+
+                <lable for="respuesta2.5">E.Soltera y disponible </lable>
+                <input type="radio" value="10" id="respuesta2.5" name="segundaSeleccion">
+            </div>
+            <!-- Pregunta 3-->
+            <div class="pregunta">
+                <h2>¿Cuales son esas cosas que te enfrentas en el amor??</h2>
+            </div>
+            <div class="respuestas">
+
+                <lable for="respuesta3.1">A.Soy muy celoso</lable>
+                <input type="radio" value="2" id="respuesta3.1" name="terceraSeleccion">
+
+                <lable for="respuesta3.2">B.Huyo al amor, cuando algo va bien me da miedo y me voy</lable>
+                <input type="radio" value="4" id="respuesta3.2" name="terceraSeleccion">
+
+                <lable for="respuesta3.3">C.Siento que nadie llena mis estándares </lable>
+                <input type="radio" value="6" id="respuesta3.3" name="terceraSeleccion">
+
+            </div>
+            
+            <!-- Pregunta 5-->
+            <div class="pregunta">
+                <h2>¿Cuál de los siguientes principios es esencial para construir una relación sólida desde una perspectiva cristiana?</h2>
+            </div>
+            <div class="respuestas">
+
+                <lable for="respuesta5.1">A.La búsqueda constante de emociones intensas.</lable>
+                <input type="radio" value="2" id="respuesta5.1" name="cuartaSeleccion">
+
+                <lable for="respuesta5.2">B.La honestidad y la confianza en Dios</lable>
+                <input type="radio" value="4" id="respuesta5.2" name="cuartaSeleccion">
+
+                <lable for="respuesta5.3">C.Mantener secretos para mantener la intriga</lable>
+                <input type="radio" value="6" id="respuesta4.3" name="cuartaSeleccion">
+
+            </div>
+            <!-- Pregunta 6-->
+            <div class="pregunta">
+                <h2>¿A que grupo perteneces?</h2>
+            </div>
+
+            <div class="respuestas">
+
+                <lable for="respuesta6.1">Soy Lit (12-16)</lable>
+                <input type="radio" value="lit" id="respuesta6.1" name="sextaSeleccion">
+
+                <lable for="respuesta6.2">Soy Next (17-24)</lable>
+                <input type="radio" value="next" id="respuesta6.2" name="sextaSeleccion">
+
+                <lable for="respuesta6.3">Soy Edge (25-35)</lable>
+                <input type="radio" value="edge" id="respuesta6.3" name="sextaSeleccion">
+
+            </div>
+            <!-- Boton de enviar-->
+            <div>
+                <button type="button" onclick="valorRespuesta()">Enviar Respuestas</button>
+            </div>
+        </div>
+    </form> 
+    <script src="/src/js/app.js"></script>   
+</body>
+</html>
