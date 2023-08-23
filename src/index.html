@@ -11,7 +11,18 @@
             <h1>Dime como te va en el amor y el pastor te dará un consejo</h1>
         </div>
         <div class="contenedor">
+    
+            <div class="respuestas">
+
+                <lable for="respuestaSexoMujer">Mujer</lable>
+                <input type="radio" value="Mujer" id="respuestaSexoMujer" name="sexoSeleccion">
+
+                <lable for="respuestaSexoHombre">Hombre</lable>
+                <input type="radio" value="Hombre" id="respuestaSexoHombre" name="sexoSeleccion">
+            </div>
+
             <!-- Pregunta 1-->
+
             <div class="pregunta">
                 <h2>Ahora sí, cuéntanos, ¿Cual es tu lenguaje del amor?</h2>
             </div>
@@ -70,7 +81,7 @@
 
             </div>
             
-            <!-- Pregunta 5-->
+            <!-- Pregunta 4-->
             <div class="pregunta">
                 <h2>¿Cuál de los siguientes principios es esencial para construir una relación sólida desde una perspectiva cristiana?</h2>
             </div>
@@ -86,29 +97,31 @@
                 <input type="radio" value="6" id="respuesta4.3" name="cuartaSeleccion">
 
             </div>
-            <!-- Pregunta 6-->
+            <!-- Pregunta 5-->
             <div class="pregunta">
                 <h2>¿A que grupo perteneces?</h2>
             </div>
 
             <div class="respuestas">
 
-                <lable for="respuesta6.1">Soy Lit (12-16)</lable>
-                <input type="radio" value="lit" id="respuesta6.1" name="sextaSeleccion">
+                <lable for="respuestaLit">Soy Lit (12-16)</lable>
+                <input type="radio" value="lit" id="respuestaLit" name="grupoSeleccion">
 
-                <lable for="respuesta6.2">Soy Next (17-24)</lable>
-                <input type="radio" value="next" id="respuesta6.2" name="sextaSeleccion">
+                <lable for="respuestaNext">Soy Next (17-24)</lable>
+                <input type="radio" value="next" id="respuestaNext" name="grupoSeleccion">
 
-                <lable for="respuesta6.3">Soy Edge (25-35)</lable>
-                <input type="radio" value="edge" id="respuesta6.3" name="sextaSeleccion">
+                <lable for="respuestaEdge">Soy Edge (25-35)</lable>
+                <input type="radio" value="edge" id="respuestaEdge" name="grupoSeleccion">
 
             </div>
             <!-- Boton de enviar-->
             <div>
-                <button type="button" onclick="valorRespuesta()">Enviar Respuestas</button>
+                <button type="button" onclick="promedio()">Enviar Respuestas</button>
             </div>
+
+            
         </div>
     </form> 
-    <script src="/src/js/app.js"></script>   
+    <script src="js/app.js"></script>   
 </body>
 </html>
