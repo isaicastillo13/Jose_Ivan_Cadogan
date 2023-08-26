@@ -1,12 +1,22 @@
 {
+<<<<<<< HEAD
   "name": "bienesraices",
   "version": "1.0.0",
   "description": "Curso Desarrollo Web Completo",
+=======
+  "name": "quizekj",
+  "version": "1.0.0",
+  "description": "Quiz con respuesta personalizada",
+>>>>>>> 34fb77506813a64e95cbe5c99e0da56264e17538
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp"
   },
+<<<<<<< HEAD
   "author": "Juan De La Torre",
+=======
+  "author": "Isaias Castillo",
+>>>>>>> 34fb77506813a64e95cbe5c99e0da56264e17538
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^5.1.0",
