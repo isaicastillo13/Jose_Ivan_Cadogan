@@ -257,7 +257,6 @@ function respuestaEnUnaRelacionLit(valorSexoRespuesta) {
   }
 }
 
-
 function deshabilitar() {
   document.getElementById("salir").disabled = false;
   document.getElementById("enviar").disabled = true;

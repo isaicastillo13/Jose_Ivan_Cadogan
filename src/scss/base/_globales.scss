@@ -6,12 +6,13 @@ html {
     box-sizing: inherit;
 }
 body {
+    background-image: url(/build/img/AJ-EKJ23-FondoB.jpg);
     font-family: $fuente_principal;
     font-size: 1.6rem;
     line-height: 1.8;
 }
 p {
-    color: $negro;
+    color: $Negro;
     font-size: 2rem;
 }
 .contenedor {
