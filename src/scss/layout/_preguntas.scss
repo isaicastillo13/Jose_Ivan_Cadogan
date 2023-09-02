@@ -1,8 +1,19 @@
+.header{
+    h1{
+      font-weight: bold;
+    }
+    
+  }
 .pregunta-respuesta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: url(/build/img/AJ-EKJ23-FondoN.webp);
     border-radius: 24px;
     color: $blanco;
     font-weight: 300px;
+    margin-top:10px;
+    
     h2{
         font-weight: bold;
     }
@@ -10,12 +21,96 @@
 
 .fondo-mostaza{
     border-radius: 16px;
-    height: 50px;
+    height: auto;
     background-color:$Mostaza;
+    margin: 10px;
+    padding: 10px;
 }
 
 .fondo-turquesa{
     border-radius: 16px;
-    height: 50px;
+    height: auto;
     background-color: $Turqueza;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn_enviar{
+    //Esta parte se ejecuta para telefono
+  
+            input{
+                background-color: $Mostaza;
+                color: $blanco;
+                border: none;
+                border-radius: 24px;
+                width: 100%;
+                //Esta parte se ejecuta en el desktop y tablet
+                @include telefono{
+                    width: auto;
+                }
+                //hasta aquí
+                height: 40px;
+                padding: 0 20px;
+                margin: 10px 0;
+            }
+}
+
+.btn_salir{
+    //Esta parte se ejecuta para telefono
+            input{
+                background-color: $Turqueza;
+                color: $blanco;
+                border: none;
+                border-radius: 24px;
+                width: 100%;
+                @include telefono{
+                    width:auto;
+                }
+                height: 40px;
+                padding: 0 20px;
+                margin: 10px 0;
+               
+            }
+}
+
+.contenedor-consejo{
+    background-image: url(/build/img/AJ-EKJ23-FondoN.webp);
+    p{
+        color: $blanco;
+    }
+    border-radius: 16px;
+    padding: 10px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modal-contenido {
+    background-color: $Negro;
+    margin: 15% auto;
+    padding: 20px;
+    border:none;
+    border-radius: 24px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+
+}
+
+.cerrar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: $blanco;
 }
