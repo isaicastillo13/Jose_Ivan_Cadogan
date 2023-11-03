@@ -1,7 +1,10 @@
-@import url('/build/fonts/Myriad/MyriadProRegular.ttf');
+@import url('/build/font/TitlingGothicFBComp-Regular/TitlingGothicFBComp-Regular.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 // Fuentes
-$fuente_principal: 'Myriad Pro', sans-serif;
+$fuente_principal: 'TitlingGothicFBComp-Regular', sans-serif;
+$fuente_secundaria: 'Inter', sans-serif;
+
 
 // Tamaño de Media Queries
 $telefono: 480px;
@@ -9,10 +12,12 @@ $tablet: 768px;
 $desktop: 1024px;
 
 // Colores  
-$Mostaza: #DAA846;;
-$Turqueza: #249CA6;
-$blanco: #FFFFFF;
-$Negro: #2C2C2C;
+$celeste: rgb(52, 114, 173);
+$azul: #193758;
+$naranjaClaro: #f08233;
+$naranjaFuerte: #e54c0f;
+$blanco: #ffffff;
+$negro: #2C2C2C;
 
 $separacion: 5rem;
 
