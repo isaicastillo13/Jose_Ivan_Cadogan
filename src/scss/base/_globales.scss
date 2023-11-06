@@ -49,9 +49,8 @@ h3 {
 }
 h4 {
     font-size: 2rem;
+    font-weight: 700;
 }
-
-
 
 .img-bgAzul{
     //background-color: $azul;
@@ -62,3 +61,14 @@ h4 {
     background-color: $naranjaClaro;
 }
 
+.bg-naranja{
+    background-color: $naranjaFuerte;
+    //background-color: $naranjaClaro;
+    color: $blanco;
+}
+
+.bg-azul{
+    background-color: $azul;
+    //background-color: $celeste;
+    color: $blanco;
+}

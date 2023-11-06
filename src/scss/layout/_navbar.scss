@@ -22,6 +22,12 @@
     .redesSociales{
         display: flex;
         flex-direction: row;
+
+    }
+
+    .logo-redes{
+        width: 24px;
+        height: auto;
     }
 
     @include tablet {

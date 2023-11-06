@@ -5,13 +5,11 @@
 @import 'base/utilidades';
 @import 'base/_botones';
 
-@import 'internas/index';
-@import 'internas/propuestas';
-@import 'internas/conoceme';
-
 @import 'layout/navbar';
-@import 'layout/presentacion';
-@import 'layout/propuestasP';
-@import 'layout/_conoceme';
-@import 'layout/_ejes';
-@import 'layout/_ejesPrincipios';
+@import 'layout//inicio/presentacion';
+@import 'layout//inicio/propuestas';
+@import 'layout//inicio/conoceme';
+@import 'layout//inicio/ejes';
+@import 'layout//ejes_y_principios/ejesPrincipios';
+@import 'layout//propuestas/propuestas';
+@import 'layout//conoceme/conoceme.scss';

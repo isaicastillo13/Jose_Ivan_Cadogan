@@ -8,7 +8,7 @@ incluirTemplates('header', $inicio =true);
 ?>
 
 <section class="contenedor contenedor-ejes">
-    <h2>EJES DE MI GESTION</h2>
+    <h2 class="bg-naranja">EJES DE MI GESTION</h2>
     <div class="contenedor-ejes">
         <div class="ejes">
                 <h4>SALUD</h4>
@@ -35,7 +35,7 @@ incluirTemplates('header', $inicio =true);
     </div>
 </section>
 <section class="contenedor contenedor-principios">
-    <h2>PRINCIPIOS DE MI GESTION</h2>
+    <h2 class="bg-azul">PRINCIPIOS DE MI GESTION</h2>
     <div class="contenedor-ejes">
         <div class="principios">
                 <h4>TRABAJO</h4>

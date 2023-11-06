@@ -43,14 +43,14 @@ function imagenes() {
     return src(paths.imagenes)
         .pipe(cache(imagemin({ optimizationLevel: 3 })))
         .pipe(dest('build/img'))
-        .pipe(notify({ message: 'Imagen Completada' }));
+        .pipe(notify({ message: 'Imagen Importada a Build' }));
 }
 
 function versionWebp() {
     return src(paths.imagenes)
         .pipe(webp())
         .pipe(dest('build/img'))
-        .pipe(notify({ message: 'Imagen Completada' }));
+        .pipe(notify({ message: 'Imagen Transformada a Webp' }));
 }
 
 
